@@ -35,6 +35,12 @@ To configure BYOK in Copilot for Xcode:
 - Click "Add" button to continue.
 - Once saved, it will list available AI models in the Models setting page. You can enable the models you intend to use with GitHub Copilot.
 
+### Example: using Claude Opus through OpenRouter
+
+- Choose **OpenRouter** as the provider and paste your OpenRouter API key (the app stores keys you enter in the Manage Models dialog; it does not read an `OPENROUTER_API_KEY` environment variable or a `.env` file).
+- If an endpoint URL is requested, use `https://openrouter.ai/api/v1`.
+- Add the model ID `anthropic/claude-opus-latest`, then enable it on the Models setting page.
+
 > [!NOTE]
 > Please keep your API key confidential and never share it publicly for safety.
   
